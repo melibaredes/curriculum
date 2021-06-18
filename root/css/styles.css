@@ -1,5 +1,6 @@
 header {
     background-color:#E5E5E5;
+    background-image: url('/root/img/3b8ad2c7b1be2caf24321c852103598a.jpeg');
     text-align: center;
     color: #005677;
     font-family: 'Times New Roman', Times, serif;
@@ -10,6 +11,7 @@ header {
 }
 #titulo-principal {
     background-color:#C4C4C4;
+    color: #005677;
 }
 body {
     background-color: #E5E5E5;
@@ -35,6 +37,7 @@ span {
 }
 p {
     font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer {
     background-color: #005677;
@@ -45,8 +48,19 @@ footer {
     color: #FFFFFF;
     font-size: 25px;
 }
-.imagen-alinear {
-    margin-top: 7px;
-    margin-left: 4px;
-    margin-right: 4px;
+img {
+    border-radius: 50%;
+    
+}
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+h1 {
+    color: #FFFFFF;
 }

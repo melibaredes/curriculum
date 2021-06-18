@@ -1,6 +1,7 @@
 header {
-    background-color:#E5E5E5;
-    background-image: url('/root/img/3b8ad2c7b1be2caf24321c852103598a.jpeg');
+    padding-top: 1cm;
+    background-color:#FFFFFF;
+    background-image: url('/root/img/wallpaper.jpeg');
     text-align: center;
     color: #005677;
     font-family: 'Times New Roman', Times, serif;
@@ -10,20 +11,20 @@ header {
     font-size: 25px;
 }
 #titulo-principal {
-    background-color:#C4C4C4;
+    background-color:#00eeff;
     color: #005677;
 }
 body {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 main {
     margin-left: 225px;
     margin-right: 225px;
 }
 .secciones {
-    background-color:#C4C4C4;
+    background-color:#00eeff;
     color: #005677;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -34,10 +35,11 @@ span {
 }
 .span-italica {
     font-style: italic;
+    font-weight: 600;
 }
 p {
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 footer {
     background-color: #005677;
@@ -47,11 +49,9 @@ footer {
     font-weight: bold;
     color: #FFFFFF;
     font-size: 25px;
+    margin-bottom: 0px;
 }
-img {
-    border-radius: 50%;
-    
-}
+
 .resize {
     width: 400px;
     height: auto;
@@ -63,4 +63,28 @@ img {
 }
 h1 {
     color: #FFFFFF;
+    margin-left: 0.8cm;
+}
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav {
+    text-align: center;
+}
+footer {
+    background-image: url(/root/img/wallpaper.jpeg);
+    text-align: center;
+    font-size: 25px;
+}
+i {
+    font-size: 25px;
+}
+.span-grande {
+    font-size: 25px;
+}
+button {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }

@@ -1,7 +1,7 @@
 header {
     padding-top: 1cm;
     background-color:#FFFFFF;
-    background-image: url('/root/img/wallpaper.jpeg');
+    background-image: url('../img/wallpaper.jpeg');
     text-align: center;
     color: #005677;
     font-family: 'Times New Roman', Times, serif;
@@ -72,7 +72,7 @@ nav {
     text-align: center;
 }
 footer {
-    background-image: url(/root/img/wallpaper.jpeg);
+    background-image: url(../img/wallpaper.jpeg);
     text-align: center;
     font-size: 25px;
 }

@@ -1,0 +1,31 @@
+$colorTextos: #7499fd;
+$fuentePrincipal: Arial, Helvetica, sans-serif;
+$colorFondo: #f7adca;
+$colorTitulos: #ff0066;
+
+body {
+    font-family: $fuentePrincipal;
+    color: $colorTextos;
+        #titulo-principal {
+            background-color: $colorFondo;
+            color: $colorTitulos;
+            font-family: $fuentePrincipal;
+    }
+}
+
+.secciones {
+    background-color: $colorFondo;
+    color: $colorTitulos;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 20px;
+    span {
+        font-weight: bold;
+    }
+    .span-italica {
+        font-style: italic;
+        font-weight: 600;
+}
+}
